@@ -68,7 +68,7 @@
     margin-left: 20%;
   }
 
-  #linkit:hover {
+  .linkit:hover {
     transform: scale(1.2,1.2);
   }
   #igkuva:hover {
@@ -181,28 +181,28 @@
       margin-top: -30px;
   }
 
-  #projektikuva {
+  .projektikuva {
       width: 300px;
       border: 2px gray solid;
       transition: 0.5s;
   }
 
-  #projektikuva1 {
+  .projektikuva1 {
     height: 200px;
     width: 330px;
     border: 2px gray solid;
     transition: 0.4s;
   }
 
-  #projektikuva1:hover {
+  .projektikuva1:hover {
     transform: scale(1.1,1.1);
   }
 
-  #projektikuva:hover {
+  .projektikuva:hover {
     transform: scale(1.5,1.5);
   }
 
-  #linkit {
+  .linkit {
       width: 10%;
       height: 10%;
       margin-bottom: 30px;
