@@ -65,13 +65,13 @@
   
   #linkkiosio {
     margin-top: 30px;
-    margin-left: 20%;
+    margin-left: 15%;
   }
 
   .linkit:hover {
     transform: scale(1.2,1.2);
   }
-  #igkuva:hover {
+  .igkuva:hover {
     transform: scale(1.2,1.2);
   }
   
@@ -209,12 +209,14 @@
       margin-left: 1.5%;
   }
 
-  #igkuva {
+
+  .igkuva {
       width: 9%;
       height: 9%;
       margin-left: 2%;
       margin-bottom: 30px;
       transition: 0.5s;
+      margin-right: 1%;
   }
 
   #otsikko {
@@ -346,5 +348,61 @@
   #pisteet {
     font-size: 60px;
   }
+
+  #otsikko2 {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: #005580;
+    text-decoration-line: underline;
+    margin-left: 100px;
+  }
+
+  #webinfo {
+    background-color: white;
+    border: 2px solid gray;
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 60px;
+    padding: 15px;
+    font-family: 'Work Sans';
+  }
+
+  #websitekokonaisuus {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #webkuva {
+    height: 25%;
+    width: 40%;
+    margin-top: 130px;
+    margin-left: 100px;
+    border: 2px solid gray;
+  }
+
+  #main {
+    font-size: 20px;
+    font-family: 'Work Sans';
+    color: #005580;
+  }
+
+ #gitlinkki {
+   margin-left: 90px;
+   margin-top: 5%;
+   border: 1px gray solid;
+   width: 270px;
+   font-family: 'Work Sans';
+   color: #005580;
+   padding: 10px;
+   font-size: 20px;
+   background-color: white;
+   transition: 0.5s;
+ }
+
+ #gitlinkki:hover {
+   transform: scale(1.1,1.1);
+ }
+
+  
 
   
