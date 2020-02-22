@@ -80,7 +80,7 @@
   }
 
   #infotekstit {
-    border: 2px gray solid;
+    border: 1px #005580 solid;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -93,6 +93,7 @@
     width: 70%;
     height: 50%;
     padding: 15px;
+    border-radius: 1em;
   }
 
   
@@ -189,8 +190,9 @@
   .projektikuva1 {
     height: 200px;
     width: 330px;
-    border: 2px gray solid;
+    border: 2px #005580 solid;
     transition: 0.4s;
+    border-radius: 1em;
   }
 
   .projektikuva1:hover {
@@ -239,7 +241,7 @@
     width: 550px;
     height: 30px;
     text-align: center;
-    border: 2px gray solid;
+    border: 1px #005580 solid;
     margin-bottom: 100px;
     padding: 5px 0;
     margin-left: 30px;
@@ -258,10 +260,11 @@
     color: #005580;
     width: 50%;
     height: 35%;
-    border: 2px gray solid;
+    border: 1px #005580 solid;
     margin-right: 20%;
     margin-left: 50px;
     padding: 15px;
+    border-radius: 1em;
   }
 
   #omakuva2 {
@@ -269,7 +272,8 @@
       width: 24%;
       margin-bottom: 200px;
       margin-right: 5%;
-      border: 2px gray solid;
+      border: 1px #005580 solid;
+      border-radius: 1em;
   }
 
   #otsikkoaboutme {
@@ -300,11 +304,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px gray solid;
+    border: 1px #005580 solid;
     margin-top: 100px;
     width: 70%;
     margin-left: 15%;
     background-color: white;
+    border-radius: 1em;
   }
 
   #hey {
@@ -359,12 +364,13 @@
 
   #webinfo {
     background-color: white;
-    border: 2px solid gray;
+    border: 1px solid #005580;
     width: 30%;
     margin-top: 100px;
     margin-left: 60px;
     padding: 15px;
     font-family: 'Work Sans';
+    border-radius: 1em;
   }
 
   #websitekokonaisuus {
@@ -376,8 +382,9 @@
     height: 25%;
     width: 40%;
     margin-top: 130px;
-    margin-left: 100px;
-    border: 2px solid gray;
+    margin-left: 10%;
+    border: 1px solid #005580;
+    border-radius: 1em;
   }
 
   #main {
@@ -387,9 +394,9 @@
   }
 
  #gitlinkki {
-   margin-left: 90px;
+   margin-left: 9%;
    margin-top: 5%;
-   border: 1px gray solid;
+   border: 1px #005580 solid;
    width: 270px;
    font-family: 'Work Sans';
    color: #005580;
@@ -397,6 +404,7 @@
    font-size: 20px;
    background-color: white;
    transition: 0.5s;
+   border-radius: 2em;
  }
 
  #gitlinkki:hover {
