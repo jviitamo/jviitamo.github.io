@@ -48,6 +48,21 @@
      font-size: 14px;
     }
    } 
+   @media only screen and (max-width: 1050px){
+  .modal {
+    padding-top: 40px;
+  }
+}
+   
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
          </style>  
          </head>  
          <body>
@@ -79,5 +94,10 @@
     </div>
     </div>
     </section>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+    </div>
+    <script type="text/javascript" src="script.js"></script>
  </body>
 </html>
