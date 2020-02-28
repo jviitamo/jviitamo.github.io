@@ -467,6 +467,7 @@ label {
   width: 100%;
  position: 0;
  margin-bottom: 20px;
+ position: sticky;
 }
 
 .overlay { 
