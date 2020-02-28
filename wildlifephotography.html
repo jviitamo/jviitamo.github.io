@@ -53,6 +53,16 @@
     padding-top: 40px;
   }
 }
+@media screen and (max-width: 500px) {
+     label {
+       display: block;
+       cursor: pointer
+     }
+
+     .yläpalkki {
+       display: none;
+     }
+   }
 @-webkit-keyframes zoom {
   from {-webkit-transform:scale(0)} 
   to {-webkit-transform:scale(1)}
@@ -66,6 +76,19 @@
      </style>  
      </head>  
      <body>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="portfolio.html">Portfolio</a>
+          <a href="aboutme.html">About</a>
+          <a href="CV.html">CV</a>
+        </div>
+      </div>
+      
+      <span onclick="openNav()">
+      <label for="toggle">&#9776;</label>
+      </span>
+    
 <header class="yläpalkki">
     <div><a href="portfolio.html">Portfolio</a></div>
       <div><a href= "aboutme.html">About</a></div>

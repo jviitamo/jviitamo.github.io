@@ -59,7 +59,18 @@
      #yläpalkki div {
      font-size: 14px;
     }
-   } 
+   }
+   
+   @media screen and (max-width: 500px) {
+     label {
+       display: block;
+       cursor: pointer
+     }
+
+     .yläpalkki {
+       display: none;
+     }
+   }
   
   body {
     background-image: url('images/86373-min.jpg');
@@ -72,11 +83,25 @@
   </style>
   </head>
   <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="aboutme.html">About</a>
+        <a href="CV.html">CV</a>
+      </div>
+    </div>
+    
+    <span onclick="openNav()">
+    <label for="toggle">&#9776;</label>
+    </span>
+
     <header class="yläpalkki">
       <div><a href="portfolio.html">Portfolio</a></div>
       <div><a href= "aboutme.html">About</a></div>
       <div><a href="CV.html">CV</a></div>
         </header>
+
     <div id="quotebox">
     <div id="quote">“Photographer and Information Networks student with a creative mindset”</div>
     </div>
@@ -129,6 +154,7 @@
    </div>
   </div>
   </section>
+
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
