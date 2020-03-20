@@ -515,7 +515,9 @@ label {
 }
   
 .video {
-    margin: auto;
+  display: flex;
+  align-items: center;
+  margin: auto;
 }
 
   
