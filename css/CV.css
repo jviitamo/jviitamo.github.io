@@ -1,0 +1,28 @@
+body {
+    background-size: initial;
+  }
+  a:visited, a:link, a:active, a:hover {
+color: #005580;
+text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+#cv {
+width: 80%;
+margin-left: 10%;
+}
+}
+@media screen and (max-width: 650px) {
+#yläpalkki div {
+font-size: 14px;
+}
+} 
+@media screen and (max-width: 500px) {
+label {
+display: block;
+cursor: pointer
+}
+
+.yläpalkki {
+display: none;
+}
+}

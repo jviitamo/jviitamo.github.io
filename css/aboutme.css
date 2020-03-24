@@ -1,0 +1,47 @@
+
+  a:visited, a:link, a:active, a:hover {
+color: #005580;
+text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+#kuvajatiedot {
+  flex-direction: column;
+}
+.runko {
+  justify-content: center;
+  align-content: center;
+}
+#itsestani {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#omakuva2 {
+  margin-top: 50px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#otsikkoaboutme {
+margin-left: auto;
+margin-right: auto;
+}
+}
+@media screen and (max-width: 650px) {
+ #yläpalkki div {
+ font-size: 14px;
+}
+} 
+@media screen and (max-width: 500px) {
+ label {
+   display: block;
+   cursor: pointer
+ }
+
+ .yläpalkki {
+   display: none;
+ }
+}

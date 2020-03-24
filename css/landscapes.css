@@ -1,0 +1,52 @@
+
+  a:visited, a:link, a:active, a:hover {
+color: #005580;
+text-decoration: none;
+  }
+@media screen and (max-width: 850px) {
+.projektit {
+flex-direction: column;
+}
+#otsikkolinnut {
+font-size: 15px;
+width: 90%;
+margin-left: 10px;
+margin-bottom: 50px;
+}
+.projektikuva {
+width: 100%;
+}
+.projektikuva:hover {
+transform: scale(1,1);
+}
+}
+@media screen and (max-width: 650px) {
+#yläpalkki div {
+font-size: 14px;
+}
+} 
+@media only screen and (max-width: 1050px){
+.modal {
+padding-top: 40px;
+}
+}
+@media screen and (max-width: 500px) {
+label {
+display: block;
+cursor: pointer
+}
+
+.yläpalkki {
+display: none;
+}
+}
+
+@-webkit-keyframes zoom {
+from {-webkit-transform:scale(0)} 
+to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+from {transform:scale(0)} 
+to {transform:scale(1)}
+}
