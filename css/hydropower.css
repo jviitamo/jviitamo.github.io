@@ -6,11 +6,7 @@ body {
 color: #005580;
 text-decoration: none;
 }
-@media screen and (max-width: 900px) {
-.video {
-width: 90%;
-}
-}
+
 @media screen and (max-width: 500px) {
 label {
 display: block;
@@ -21,3 +17,81 @@ cursor: pointer
 display: none;
 }
 }
+
+
+h1 {
+  text-align: center;
+  font-family: 'Montserrat';
+  color: #005580;
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-decoration-line: underline;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 40%;
+  height: 91%;
+  border: 1px gray solid;
+}
+
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  margin-left: 50px;
+}
+
+.text {
+  width: 35%;
+  margin-left: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #005580;
+  background-color: white;
+  text-align: center;
+  height: 75%;
+  margin-top: 2%;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 870px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+    height: 60%;
+  }
+
+  .video {
+    margin: auto;
+    width: 80%;
+    height: 60%;
+  }
+  .text {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
+    height: 27%;
+  }
+     }
+
+   @media screen and (max-width: 1000px) {
+     .text {
+       line-height: normal;
+     }
+   }
+   @media screen and (max-width: 500px) {
+   .text {
+    height: 60%;
+  }
+   }
+     
+   }
