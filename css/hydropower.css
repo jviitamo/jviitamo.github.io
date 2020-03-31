@@ -59,6 +59,7 @@ h1 {
   height: 75%;
   margin-top: 2%;
   line-height: 30px;
+  border-radius: 2em;
 }
 
 @media screen and (max-width: 870px) {

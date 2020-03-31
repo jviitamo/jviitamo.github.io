@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157353445-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-157353445-1');
+  </script>
+     <title>Weatherapp</title>
+     <link rel="stylesheet" type="text/css" href="styles.css"/>
+     <link rel="stylesheet" type="text/css" href="./css/normalize.css"/>
+     <link rel="stylesheet" type="text/css" href="./css/weatherapp.css"/>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="weather app I created myself">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+     </head>  
+     <body>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="portfolio.html">Portfolio</a>
+          <a href="aboutme.html">About</a>
+          <a href="CV.html">CV</a>
+        </div>
+      </div>
+      
+      <span onclick="openNav()">
+      <label for="toggle">&#9776;</label>
+      </span>
+      
+  <header class="yläpalkki">
+    <div><a href="portfolio.html">Portfolio</a></div>
+      <div><a href= "aboutme.html">About</a></div>
+      <div><a href="CV.html">CV</a></div>
+  </header>
+  <div class="container">
+    <h1>Weather App</h1>
+    <p class="description">In this project I created a weather app, which uses an API from openweathermap to get weather information all over the world.
+        By default, it displays the local weather at Helsinki. You can use locate button to get weather data from your location.
+        You can also use search to find the current weather from a city, for example London or Paris. The app displays local temperature, 
+        gives you a brief description and also shows an icon based on the weather. 
+     </p>
+    <img src="./images/weatherapp.PNG" alt="weatherapp" />
+    <p class="Technologies">Technologies used in this project are HTML5, CSS, Javascript and API.</p>
+    <div class="git"><a href="https://github.com/jviitamo/weather_app">click here to see the code</a></div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
