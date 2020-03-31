@@ -258,7 +258,7 @@
     width: 50%;
     height: 35%;
     border: 1px #005580 solid;
-    margin-right: 20%;
+    margin-right: 10%;
     margin-left: 50px;
     padding: 15px;
     border-radius: 1em;
@@ -282,9 +282,9 @@
     height: 60px;
     text-align: center;
     text-decoration-line: underline;
+    margin: auto;
     margin-bottom: 50px;
     padding: 5px 0;
-    margin-left: 100px;
     margin-top: 50px;
   }
 
