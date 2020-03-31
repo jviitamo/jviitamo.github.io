@@ -326,6 +326,7 @@
     border: 1px white solid;
     width: 250px;
     font-size: 30px;
+    border-radius: 2em;
   }
 
   #websitebox {
