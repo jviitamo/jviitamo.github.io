@@ -288,13 +288,17 @@
     margin-top: 50px;
   }
 
-  #cv div{
+  #cv a{
     
     font-size: 20px;
     text-align: center;
     font-family: 'Montserrat';
     color: #005580;
     padding: 15px;
+  }
+
+  #cv:hover {
+    text-decoration-line: underline;
   }
 
   #cv {
