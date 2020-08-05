@@ -31,6 +31,7 @@
   position: sticky;
   top: 0;
   transition: 0.3s;
+  z-index: 1;
   }
 
   .yläpalkki div {
@@ -190,6 +191,7 @@
     border: 2px #005580 solid;
     transition: 0.4s;
     border-radius: 1em;
+    z-index: -1;
   }
 
   .projektikuva1:hover {
