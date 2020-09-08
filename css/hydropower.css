@@ -33,62 +33,28 @@ h1 {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 40%;
-  height: 91%;
-  border: 1px gray solid;
-}
-
-.container {
+  width: 80%;
+  max-height: 500px;
   margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  height: 30%;
-  margin-left: 50px;
+  border-radius: 1em;
+  border: 1px #005580 solid;
 }
 
-.text {
-  width: 35%;
-  margin-left: 10px;
-  border: 1px solid gray;
-  padding: 10px;
-  font-family: 'Montserrat';
-  font-size: 20px;
-  color: #005580;
-  background-color: white;
-  text-align: center;
-  margin-top: 2%;
-  line-height: 30px;
-  border-radius: 2em;
-}
-
-@media screen and (max-width: 870px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin: 0;
-    height: 60%;
-    margin-top: 30px;
-  }
-
+@media screen and (min-width: 700px) {
   .video {
-    margin: auto;
-    width: 80%;
-    height: 60%;
+    height: 300px
   }
-  .text {
-    margin: auto;
-    width: 80%;
-    margin-bottom: 50px;
-   
-  }
-     }
+}
 
-   @media screen and (max-width: 1000px) {
-     .text {
-       line-height: normal;
-     }
-   }
-  
-     
-   
+@media screen and (min-width: 1200px) {
+  .video {
+    height: 400px
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .video {
+    height: 500px
+  }
+}
+

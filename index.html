@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
    
   </head>
-  <body>
+  <body onload="writeText()">
     <div id="myNav" class="overlay">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
@@ -28,7 +28,6 @@
         <a href="CV.html">CV</a>
       </div>
     </div>
-    
     <span onclick="openNav()">
     <label for="toggle">&#9776;</label>
     </span>
@@ -40,7 +39,7 @@
         </header>
 
     <div id="quotebox">
-    <div id="quote">“Photographer and Information Networks student with a creative mindset”</div>
+    <div id="quote"></div>
     </div>
     
        <section class="rivi">   
@@ -69,9 +68,17 @@
       <p id="portfolio"> portfolio </p>
   <section class="container">
   <div class="projektit"> 
+    <div>
+      <a href="searchapp.html"><img class="projektikuva1" src="images/searchapp.PNG" alt="search app"></a> 
+      <p>Search App</p>
+    </div>
+    <div>
+      <a href="campaign.html"><img class="projektikuva1" src="images/campaign.PNG" alt="campaign website"></a> 
+      <p>Campaign website</p>
+    </div>
    <div>
-  <a href="website.html"><img class="projektikuva1" src="images/Sieppaa3-min.png" alt="my website project"></a> 
-  <p>My own website</p>
+  <a href="website.html"><img class="projektikuva1" src="images/website.PNG" alt="my website project"></a> 
+  <p>Portfolio website</p>
    </div>
    <div>
     <a href="weatherapp.html"><img class="projektikuva1" src="images/weatherapp.PNG" alt="my weather app"></a> 

@@ -28,4 +28,16 @@ function closeNav() {
 }
 
 
+function writeText() {
+  const text = '"Photographer and Information Networks student with a creative mindset"';
+  speed = 80
+
+  if (i < text.length) {
+    document.getElementById("quote").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(writeText, speed);
+  }
+}
+
+
 

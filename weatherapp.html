@@ -11,7 +11,7 @@
      <title>Weatherapp</title>
      <link rel="stylesheet" type="text/css" href="styles.css"/>
      <link rel="stylesheet" type="text/css" href="./css/normalize.css"/>
-     <link rel="stylesheet" type="text/css" href="./css/weatherapp.css"/>
+     <link rel="stylesheet" type="text/css" href="./css/website.css"/>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta name="description" content="weather app I created myself">
@@ -38,20 +38,15 @@
       <div><a href="CV.html">CV</a></div>
   </header>
   <h1>Weather App</h1>
-    <a class="return" href="index.html">
-      <i class="arrow left"></i>
-       return
-    </a>
-  <div class="container">
-    <p class="description">In this project I created a weather app, which uses an API from openweathermap to get weather information all over the world.
-        By default it displays the local weather at Helsinki. You can use locate button to get weather data at your location.
-        You can also use search to find the current weather at a city, for example London or Paris. The app displays local temperature, 
-        gives you a brief description and also shows an icon based on the weather. 
-     </p>
-    <img src="./images/weatherapp.PNG" alt="weatherapp" />
-    <p class="Technologies">Technologies used in this project are HTML5, CSS, Javascript and API.</p>
-    <div class="git"><a href="https://github.com/jviitamo/weather_app">click here to see the code</a></div>
-  </div>
+    <section id="webinfo">
+     <div id="main">In this project I created a React weather app, which uses an API from openweathermap to get weather information all over the world.
+      By default it displays the local weather at Helsinki. You can use locate button to get weather data at your location.
+      You can also use search to find the current weather at a city, for example London or Paris. The app displays local temperature, 
+      gives you a brief description and also shows an icon based on the weather.
+    </div>
+          <img id="webkuva" src="./images/weatherapp.PNG" alt="weatherapp">    
+          <div id="gitlinkki"><a href="https://github.com/jviitamo/weather_app" target="_blank">click here to see the code</a></div>
+    </section>
   <script type="text/javascript" src="script.js"></script>
  </body>
 </html>
