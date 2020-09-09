@@ -205,12 +205,19 @@
   }
 
   .projektikuva1 {
-    height: 200px;
-    width: 350px;
+    height: 180px;
+    width: 330px;
     border: 2px #005580 solid;
     transition: 0.4s;
     border-radius: 1em;
     z-index: -1;
+  }
+
+  @media screen and (min-width: 1500px) {
+    .projektikuva1 {
+      height: 240px;
+      width: 450px
+    }
   }
 
   .projektikuva1:hover {
@@ -266,6 +273,7 @@
     border: 1px #005580 solid;
     margin-bottom: 50px;
     padding: 5px 0;
+    text-align: center;
   }
 
   #itsestani {
